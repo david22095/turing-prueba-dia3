@@ -7,7 +7,7 @@ verifica la firma, valida los datos, los guarda en un Google Sheet y notifica
 por Gmail.
 
 ## Flujo
-
+![Arquitectura](arquitectura_dia3.png)
 Archivo al bucket -> Cloud Function (Día 1) -> firma HMAC -> Apps Script web app
 -> verifica firma -> valida datos -> Google Sheet + notificación por Gmail
 
